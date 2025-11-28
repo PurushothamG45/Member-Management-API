@@ -1,0 +1,39 @@
+cat > .gitignore << EOF
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local configuration
+*.properties
+*.log
+
+# Temp files
+*.tmp
+*.temp
+EOF
